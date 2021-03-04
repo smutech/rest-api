@@ -17,7 +17,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::orderBy('created_at', 'DESC')->paginate(20);
+        $posts = Post::latest()->paginate(20);
 
         return PostResource::collection($posts);
     }
@@ -33,7 +33,7 @@ class PostController extends Controller
         $data = $request->only(['title', 'body', 'category_id']);
         $rules = [
             'title' => 'required|min:3|max:255',
-            'body' => 'required|min:5',
+            'body' => 'required|min:50',
             'category_id' => 'required',
         ];
         $messages = [
@@ -94,7 +94,7 @@ class PostController extends Controller
         $data = $request->only(['title', 'body', 'category_id']);
         $rules = [
             'title' => 'required|min:3|max:255',
-            'body' => 'required|min:5',
+            'body' => 'required|min:50',
             'category_id' => 'required',
         ];
         $messages = [
