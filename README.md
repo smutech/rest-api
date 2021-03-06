@@ -16,6 +16,9 @@ php artisan migrate --seed
 
 # Generate application key
 php artisan key:generate
+
+# Start server
+php artisan serve
 ```
 
 ## Endpoints
