@@ -19,5 +19,31 @@ php artisan key:generate
 ```
 
 ## Endpoints
+
+### List all categories with links and meta
+```
 GET api/v1/categories
+```
+
+### List single category
+```
+GET api/v1/categories/{id}
+```
+
+### Add category
+```
+POST api/v1/categories
+name
+```
+
+### Update category
+```
+PUT api/v1/categories/{id}
+name
+```
+
+### Delete category
+```
+DELETE api/v1/categories/{id}
+```
 
