@@ -40,4 +40,24 @@ name
 DELETE api/v1/categories/{id}
 ```
 
+### Posts
+```
+# List all posts with links and meta
+GET api/v1/posts
+
+# List single post
+GET api/v1/posts/{id}
+
+# Add category
+POST api/v1/posts
+name
+
+# Update category
+PUT api/v1/posts/{id}
+name
+
+# Delete category
+DELETE api/v1/posts/{id}
+```
+
 
