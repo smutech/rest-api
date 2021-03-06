@@ -22,7 +22,9 @@ php artisan key:generate
 
 ### Categories
 #### List all categories with links and meta
+```
 GET api/v1/categories
+```
 
 #### List single category
 ```
