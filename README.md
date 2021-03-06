@@ -65,11 +65,10 @@ POST api/v1/posts
 Fields: title, body, category_id
 ```
 
-#### Update category
+#### Update category (Required fields: title, body, category_id)
 ```
 PUT api/v1/posts/{id}
 ```
-Required fields: title, body, category_id
 
 #### Delete category
 ```
