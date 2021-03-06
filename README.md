@@ -61,8 +61,8 @@ GET api/v1/posts/{id}
 
 #### Add category
 ```
-# Required fields: title, body, category_id
 POST api/v1/posts
+# Required fields: title, body, category_id
 ```
 
 #### Update category (Required fields: title, body, category_id)
