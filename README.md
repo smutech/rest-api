@@ -68,7 +68,6 @@ Fields: title, body, category_id
 #### Update category
 ```
 PUT api/v1/posts/{id}
-<!-- Fields: title, body, category_id -->
 ```
 Required fields: title, body, category_id
 
