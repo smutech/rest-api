@@ -50,11 +50,11 @@ GET api/v1/posts/{id}
 
 # Add category
 POST api/v1/posts
-title, body, category_id
+Fields: title, body, category_id
 
 # Update category
 PUT api/v1/posts/{id}
-title, body, category_id
+Fields: title, body, category_id
 
 # Delete category
 DELETE api/v1/posts/{id}
