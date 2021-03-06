@@ -47,44 +47,31 @@ name
 ```
 DELETE api/v1/categories/{id}
 ```
-<!-- ### Categories
-```
-# List all categories with links and meta
-GET api/v1/categories
-
-# List single category
-GET api/v1/categories/{id}
-
-# Add category
-POST api/v1/categories
-name
-
-# Update category
-PUT api/v1/categories/{id}
-name
-
-# Delete category
-DELETE api/v1/categories/{id}
-``` -->
 
 ### Posts
+#### List all posts with links and meta
 ```
-# List all posts with links and meta
 GET api/v1/posts
+```
 
-# List single post
+#### List single post
+```
 GET api/v1/posts/{id}
+```
 
-# Add category
+#### Add category
+```
 POST api/v1/posts
 Fields: title, body, category_id
-
-# Update category
-PUT api/v1/posts/{id}
-Fields: title, body, category_id
-
-# Delete category
-DELETE api/v1/posts/{id}
 ```
 
+#### Update category
+```
+PUT api/v1/posts/{id}
+Fields: title, body, category_id
+```
 
+#### Delete category
+```
+DELETE api/v1/posts/{id}
+```
