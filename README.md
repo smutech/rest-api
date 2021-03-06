@@ -47,6 +47,7 @@ name
 ```
 DELETE api/v1/categories/{id}
 ```
+---
 
 ### Posts
 #### List all posts with links and meta
