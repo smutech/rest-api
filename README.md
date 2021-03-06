@@ -59,18 +59,17 @@ GET api/v1/posts
 GET api/v1/posts/{id}
 ```
 
-#### Add category
+#### Add post (Required fields: title, body, category_id)
 ```
 POST api/v1/posts
-# Required fields: title, body, category_id
 ```
 
-#### Update category (Required fields: title, body, category_id)
+#### Update post (Required fields: title, body, category_id)
 ```
 PUT api/v1/posts/{id}
 ```
 
-#### Delete category
+#### Delete post
 ```
 DELETE api/v1/posts/{id}
 ```
