@@ -1,6 +1,6 @@
 # REST API (Laravel)
 
-This is a REST API created using <a href="https://github.com/laravel/laravel" target="_blank">Laravel 8</a>, popular web application framework.
+REST API created using <a href="https://github.com/laravel/laravel" target="_blank">Laravel 8</a>, popular web application framework.
 
 ## Quick start
 
