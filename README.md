@@ -48,8 +48,8 @@ name
 DELETE api/v1/categories/{id}
 ```
 ---
-
 ### Posts
+<hr>
 #### List all posts with links and meta
 ```
 GET api/v1/posts
