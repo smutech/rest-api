@@ -31,16 +31,14 @@ GET api/v1/categories
 GET api/v1/categories/{id}
 ```
 
-#### Add category
+#### Add category (Required field: name)
 ```
 POST api/v1/categories
-name
 ```
 
-#### Update category
+#### Update category (Required field: name)
 ```
 PUT api/v1/categories/{id}
-name
 ```
 
 #### Delete category
