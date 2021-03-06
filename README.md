@@ -8,11 +8,11 @@ REST API created using <a href="https://github.com/laravel/laravel" target="_bla
 # Install dependencies
 composer install
 
-# Run migrations
-php artisan migrate
+# Create environment
+cp .env.example .env
 
-# Seed data
-php artisan db:seed
+# Run migrations and seeds
+php artisan migrate --seed
 
 # Generate application key
 php artisan key:generate
